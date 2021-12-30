@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+    <title>Yandex карта</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Укажите свой API-ключ    -->
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=f36227c3-d393-49a0-864d-e85a555d0945" type="text/javascript"></script>
+    <style type="text/css">
+       
+        html, body{
+            width: 100%; padding: 0; margin: 0;
+            font-family: Arial;
+        }
+
+        #map {
+            width: 95%;
+            height: 450px;
+        }
+            /* Оформление меню (начало)*/
+        .menu {
+            list-style: none;
+            padding: 5px;
+
+            margin: 0;
+        }
+        .submenu {
+            list-style: none;
+
+            margin: 0 0 0 20px;
+            padding: 0;
+        }
+        .submenu li {
+            font-size: 90%;
+        }
+
+    </style>
+</head>
+
+<body>
+<div id="map"></div>
+
+    <script type="text/javascript">
+        let groups = [
+            {
+                name:"Музеи",
+                style:"islands#redIcon",
+                items:[
+                    {
+                        center:[55.741361, 37.620219],
+                        name:"Третьяковская галерея"
+                    },
+                    {
+                        center:[55.750557,  37.616766],
+                        name:"Грановитая палата"
+                    },
+
+                    {
+                        center:[55.746416, 37.6042755],
+                        name:"Усадьба князей Голицыных"
+                    }
+
+
+                ]
+            },
+
+            {
+                name:"Кинотеатры",
+                style:"islands#redIcon",
+                items:[
+                    {
+                        center:[55.760102, 37.624153],
+                        name:"Формула кино"
+                    },
+
+                    {
+                        center:[55.740762, 37.609996],
+                        name:"Люмьер холл"
+                    },
+
+                    {
+                        center:[55.747852, 37.645093],
+                        name:"Иллюзион"
+                    }
+                   
+                ]
+            }
+        ]
+
+        function createGeoObjects (group, map){
+            let collection = new ymaps.GeoObjectCollection(null, { preset:groups.style });
+
+           // Добавляем коллекцию на карту.
+           map.geoObjects.add(collection);
+           
+           for(let j = 0, m = group.items.length; j < m; j++){
+                createРlacemark(group.items[j], collection);
+           }
+        }
+
+        function createРlacemark(item, collection){
+            // Создаем метку.
+            let placemark = new ymaps.Placemark(item.center, { balloonContent: item.name });
+            
+            // Добавляем метку в коллекцию.
+            collection.add(placemark);
+        }
+
+
+        ymaps.ready(init);
+
+        function init() {
+
+                let map = new ymaps.Map(
+                    'map',
+                    {
+                        center:[55.751956, 37.622634],
+                        zoom:14
+                    },
+
+                    {
+                        searchControlProvader:'yandex#search'
+                    });
+
+                // Добавляем коллекцию на карту.
+                for (let i = 0, l = groups.length; i < l; i++){
+                    createGeoObjects(groups[i], map);
+                }
+
+        }
+
+    </script>
+</body>
+
+</html>
+
+

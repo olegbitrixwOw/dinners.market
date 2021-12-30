@@ -1,0 +1,639 @@
+.basket_fly {
+    top: 178px;
+    z-index: 1046;
+    position: fixed;
+    right: -999px;
+    background: #fff;
+    box-shadow: rgba(44,44,44,.4) 0 6px 18px;
+    -moz-box-shadow: rgba(44,44,44,.4) 0 6px 18px;
+    -webkit-box-shadow: rgba(44,44,44,.4) 0 6px 18px;
+    min-height: auto;
+     min-width: 310px;
+    width: 320px;
+}
+
+.small_basket {
+    display: block;
+    width: 592px;
+    padding: 8px 0 0 0;
+    border: 1px solid #ededed;
+    background: #fff;
+    margin: 10px 0;
+}
+
+.notice {
+    display: block;
+    padding: 0;
+    margin: 0 5px;
+    font-size: 12px;
+
+}
+
+.small_basket_hover_block__buttons_ {
+    margin: 12px 0 0;
+    padding: 17px 7px 16px;
+    background: #ededed;
+}
+.small_basket_hover_block.active_ {
+    display: block;
+}
+
+.small_basket_block .icon, .small_basket_block .quant {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+/*    margin: 4px 9px 0 0;*/
+    text-align: center;
+    color: #fff; 
+    font-weight: 300;
+    font-size: 14px;
+    background: #c8c8c8;
+} 
+
+.bx-no-touch .header .small_basket_block:hover, .bx-no-touch .small_basket--active {
+    background: #ededed;
+}
+
+.basket-box a.small_basket_block {
+    cursor: pointer;
+}
+
+.small_basket_block {
+    position: relative;
+    cursor: default;
+    margin: 0 !important;
+    /*padding: 15px 25px 10px 10px;*/
+    float: left !important; 
+    padding:0px;
+    color: #333;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: bold;
+    border-radius: 0;
+    text-decoration: none;
+    display: block;
+}
+
+.small_basket_block:hover .cart_heading_wrapper .rub {
+    font-size: 16px;
+    font-weight: 900;
+    border-bottom: 1px solid  #87a95d;
+    position: relative;
+    top: 5px;
+}
+
+.cart_heading_wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 4px;
+    /*margin: 4px 0 0 20px;*/
+}
+.cart_heading_wrapper {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+
+.cart_heading_wrapper:hover {
+
+}
+
+
+.small_basket_block .text {
+    text-align: center;
+    font-size: 1em;
+}
+
+.small_basket_hover_block {
+    position: unset !important;
+    top: 100%;
+    right: 0;
+    width: 592px;
+    padding: 8px 0 0 0;
+    border: 1px solid #ededed;
+    background: #fff;
+    margin: 10px 0;
+}
+
+/*.small_basket_hover_block__buttons > a{
+    float: left !important;
+}
+*/
+#small_basket_box {
+    display: flex;
+}
+
+.small_basket_hover_block {
+    width: 350px !important;
+}
+
+
+.small_basket_block::after,
+.small_basket_block::before {
+    content: none !important;
+    position: absolute;
+    top: 23px;
+    width: 1px;
+    height: 27px;
+    background: #ededed;
+}
+
+
+.small_basket_block .text {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 !important;
+    display: inline;
+}
+
+.small_basket_block .cart_heading_wrapper .summ {
+    display: inline;
+   /* line-height: inherit;*/
+   line-height: 26px;
+}
+
+
+.small_basket_block .cart_heading_wrapper .rub {
+    font-size: 15px;
+    font-weight: 900;
+    border-bottom: 1px solid #000;
+    position: relative;
+    top: 5px;
+}
+
+
+.small_basket_hover_block {
+    width: 100% !important;
+}
+
+
+.small_basket_overflow {
+    width: auto;
+    height: auto;
+    max-height: 300px;
+    padding-right: 9px !important;
+}
+
+
+.basket_wrapp .basket_fly .basket_count .wraps_icon_block.basket .count span {
+    background: #8a969a;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.basket_wrapp .basket_fly .basket_count .wraps_icon_block.basket .count span {
+    background: #8a969a;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.basket_wrapp .wraps_icon_block .count.active {
+    position: absolute;
+    top: 10px;
+}
+
+.basket_fly .opener {
+    height: 68px;
+}
+
+.scroll-wrapper.small_basket_overflow .small_basket_hover_price {
+    font-size: 14px !important;
+}
+
+.small_basket_hover_table .small_basket_hover_name .small_basket_hover_price .box_rub_price {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    font-size: 14px !important;
+    line-height: 5px;
+    padding-top: 12px;
+    border-bottom: 1px solid #000;
+    width: 0.4em;
+    vertical-align: top;
+}
+
+.good_box .box_rub_price {
+    font-size: 18px !important;
+    font-weight: normal;
+    border-bottom: 1px solid #000;
+    position: relative;
+    top: 1px !important;
+}
+
+
+.basket_fly .opener.active {
+    top: 60px;
+    background: #c16726;
+}
+
+
+/*** !!! ***/
+
+.panel.disabled {
+    background-color: #6b61537a;
+      border:0;
+    border-radius:0;
+
+}
+
+.panel.disabled .small_basket_hover_block {
+    /*pointer-events: none;*/
+    opacity: 0.8;
+}
+
+.panel.disabled .small_basket_hover_block table, .panel.disabled .small_basket_hover_block .small_basket_hover_block__buttons {
+    pointer-events: none;
+}
+.panel.disabled .small_basket_block:hover, .panel.disabled .small_basket_block:visited  {
+    color: #da3f3f  !important;
+}
+
+
+
+.panel.disabled .small_basket_block .cart_heading_wrapper .rub {
+    font-size: 16px;
+    font-weight: 900;
+    border-bottom: 1px solid #0c0b0b;
+    position: relative;
+    top: 5px;
+}
+
+
+.panel.disabled .small_basket_block:hover .cart_heading_wrapper .rub {
+    font-size: 16px;
+    font-weight: 900;
+    border-bottom: 1px solid #7d1616;
+    position: relative;
+    top: 5px;
+}
+
+.panel.disabled .small_basket_block span.text, .panel.disabled .small_basket_block span.summ, .panel.disabled .small_basket_block span.rub  {
+    color: #0c0b0b !important;
+}
+
+.panel.disabled .small_basket_block span.text:hover, .panel.disabled .small_basket_block span.summ:hover, .panel.disabled .small_basket_block span.rub:hover  {
+    color: #7d1616 !important;
+}
+
+.panel.disabled .small_basket_block:hover span.text, .panel.disabled .small_basket_block:hover span.summ, .panel.disabled .small_basket_block:hover span.rub {
+    color: #7d1616 !important;
+}
+
+/*** BASKET ***/
+/*.basket_fly {
+        top: 178px;
+        z-index: 1046;
+        position: fixed;
+        width: 320px;
+        min-width: 310px;
+        min-height: auto;
+        padding: 0;
+}*/
+
+.small_basket_hover_block.active {
+    background-color: whitesmoke !important;
+}
+
+.small_basket_hover_block { 
+    border: 1px solid #ccc6c6a1 !important;
+}
+
+.small_basket_hover_table .small_basket_hover_delete_action {
+    background: #b7acac !important;
+    top: 0;/*refactor 30.06.2020*/
+    /* top: 35px; */
+}
+
+.small_basket_hover_table .small_basket_hover_delete_action:hover {
+    background: #abcad6 !important;
+}
+
+
+.small_basket_hover_table .small_basket_hover_name {
+    padding: 2px 0 10px 10px !important;/*refactor 30.06.2020*/
+    /* padding: 2px 0 10px 40px !important; */
+    text-align: left;
+    font-size: 13px;
+}
+
+/*
+.small_basket_hover_table .small_basket_hover_name .small_basket_hover_price {
+    float: right;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px !i;
+    margin: 20px 0 0 !important;
+}*/
+
+.small_basket_hover_table .small_basket_hover_name .small_basket_hover_price {
+    float: right;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px !important;
+    margin: 17px 10px !important;
+}
+
+
+
+.small_basket_hover_block__buttons {
+    margin: 0 !important;
+    padding: 5px 10px !important;
+    background: #ededed !important;
+}
+
+.small_basket_hover_name .name a {
+    font-weight: normal;
+    font-size: 14px;
+    color: #333;
+    line-height: 1;
+    text-decoration: none;
+    margin: 10px 0 5px 0;
+    display: block;
+    max-height: 30px;
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+
+    .small_basket_hover_table .small_basket_hover_img > a {
+        display: block;
+        width: 40px !important;
+        height: 40px !important;
+        background-size: cover;
+
+    }
+
+    .small_basket_hover_table .small_basket_hover_quantity {
+        float: left;
+        margin: 0 0 0 19px !important;
+    }
+
+    .small_basket_hover_name .name {
+        padding: 0 !important;
+    }
+
+    .small_basket_hover_table tr td {
+        text-align: center;
+        vertical-align: top;
+        border-top: 1px solid #efefef;
+    }
+
+    .small_basket_hover_table .small_basket_hover_name {
+        /*refactor layout*/
+        /* padding: 15px 0 0 0 !important; */
+        padding: 15px 0 10px 10px !important;/*refactor 30.06.2020*/
+        /* padding: 15px 0 0 25px !important; */
+        text-align: left;
+        font-size: 13px;
+    }
+
+    .small_basket_hover_table .small_basket_hover_name {
+        padding: 0;
+        text-align: left;
+    }
+
+    .basket-buy {
+        border-radius: 3px;
+        display: inline-block;
+        padding: 2px !important;
+        border-radius:0 !important;
+    }
+
+    .small_basket_hover_table .small_basket_hover_name .small_basket_hover_price {        
+        float: right;
+        color: #333;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px !important;
+        margin: 0 !important;
+    }
+
+    .small_basket_hover_price {
+        font-size: 12px !important;
+    }
+
+    .item_quantity a, .itQuant_container a {
+        line-height: 30px !important;
+        height: 30px !important;
+    }
+
+    .item_quantity input, .itQuant_container input {
+        height: 30px !important;
+    }
+
+    /*** BASKET FLY ***/ 
+
+    .basket_fly {
+        top: 178px;
+        z-index: 1046;
+        position: fixed;
+        width: 25% !important;
+        min-height: auto;
+        padding: 0;
+    }
+
+}
+@media screen and (max-width: 1024px){
+    .basket_fly {
+        display: none;
+    }
+
+  /*  .basket_fly {
+        display: block;
+        top: 0px;
+        position: relative;
+        width: 90%;
+        box-shadow: none;
+    }
+    .basket_sum_block {
+        display: none;
+    }*/
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 1024px){ 
+/*    .small_basket_hover_table .small_basket_hover_quantity {
+        float: left;
+        margin: 0;
+    }
+
+    .small_basket_hover_table .small_basket_hover_img{
+        display: none;
+    }
+
+
+    .small_basket_hover_table .item_quantity, .itQuant_container {
+        text-align: center;
+        width: 50px;
+        margin: 0 auto;
+        position: relative;
+        left: 15px;
+        top: 15px;
+        margin: 0 !important;
+    }
+
+    .small_basket_hover_table  .item_quantity input, .itQuant_container input {
+        margin: 0;
+        padding: 3px 10px;
+        height: 27px;
+        z-index: 10;
+        height: 30px;
+        border: 1px solid #ededed;
+        color: #333;
+        font-weight: 400;
+    }
+
+    .small_basket_hover_table  .item_quantity a, .itQuant_container a {
+        padding: 0;
+        background: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 30px;
+        z-index: 15;
+        position: absolute;
+        top: 0;
+        width: 23px;
+        height: 30px;
+        text-align: center;
+        border: 1px solid #ededed;
+    }
+
+    .small_basket_hover_table  .item_quantity a, .itQuant_container a {
+        padding: 0;
+        background: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 30px;
+        z-index: 15;
+        position: absolute;
+        top: 0;
+        width: 23px;
+        height: 30px;
+        text-align: center;
+        border: 1px solid #ededed;
+    }
+
+    .small_basket_hover_table .small_basket_hover_quantity {
+         float: unset;
+        margin: 0; 
+    }
+
+    .small_basket_hover_table .small_basket_hover_name .small_basket_hover_price {
+        float: unset !important;
+        color: #333;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        position: relative;
+        top: 22px;
+        left: 50px;
+        margin:0 !important;
+    }
+
+    .small_basket_hover_block {
+        min-width: 
+    }*/
+
+/*  .basket_fly {
+
+    }*/
+}
+
+
+ .small_basket_hover_table .item_quantity, .itQuant_container {
+        text-align: center;
+        width: 50px;
+        margin: 0 auto;
+        position: relative;
+        left: 32px;
+        top: 15px;
+        margin: 0 !important;
+    }
+
+    .small_basket_hover_table  .item_quantity input, .itQuant_container input {
+        margin: 0;
+        padding: 3px 10px;
+        height: 27px;
+        z-index: 10;
+        height: 30px;
+        border: 1px solid #ededed;
+        color: #333;
+        font-weight: 400;
+    }
+
+    .small_basket_hover_table  .item_quantity a, .itQuant_container a {
+        padding: 0;
+        background: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 30px;
+        z-index: 15;
+        position: absolute;
+        top: 0;
+        width: 23px;
+        height: 30px;
+        text-align: center;
+        border: 1px solid #ededed;
+    }
+    /*refactor layout*/
+    .small_basket_hover_table  .item_quantity .minus,
+    .small_basket_hover_table  .item_quantity .plus{
+        padding: 0;
+        background: #c8c8c8;
+        text-decoration: none;
+        font-size: 20px!important;
+        font-weight: 100;
+        line-height: 24px!important;
+        z-index: 15;
+        position: absolute;
+        top: 3px;
+        width: 24px!important;
+        height: 24px!important;
+        text-align: center;
+        /* border: 1px solid #ededed; */
+        border: none!important;
+        border-radius: 100%;
+        color: #000000;
+    }
+    .small_basket_hover_table  .item_quantity .minus{
+        left: -32px;
+    }
+    .small_basket_hover_table  .item_quantity .plus{
+        right: -32px;
+    }
+
+.small_basket_hover_name .name {
+    padding: 0!important;
+}
+
+.small_basket_hover_block {
+    padding: 0 !important;
+}
+
+
+.item_quantity a.minus, .itQuant_container a.minus{
+    left: -18px;
+}
+
+
+
+.small_basket_hover_table .item_quantity, .itQuant_container {
+    text-align: center;
+    top: 0px; 
+    margin: 0 !important;
+}
+
+
+.small_basket_hover_table .small_basket_hover_name .small_basket_hover_price {
+    width: auto;
+    margin: 0px !important;
+    font-weight: bold !important;
+}
+
+.box_rub_price {
+    font-weight: bold !important;
+}
+

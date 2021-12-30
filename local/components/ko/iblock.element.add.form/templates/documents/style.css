@@ -1,0 +1,10 @@
+
+input[type="button"], input[type="submit"] {
+    padding: 11px 20px;
+    border-radius: 22px;
+    margin: 50px 0 !important;
+}
+
+/*#main_block_page {
+    display: none;
+}*/

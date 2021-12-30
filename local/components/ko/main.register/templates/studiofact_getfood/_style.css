@@ -1,0 +1,81 @@
+div.bx-auth-reg input.bx-auth-input {vertical-align:middle;}
+div.bx-auth-reg span.bx-auth-secure {background-color:#FFFAE3; border:1px solid #DEDBC8; padding:2px; display:inline-block; vertical-align:middle;}
+div.bx-auth-reg div.bx-auth-secure-icon {background-image:url(images/sec.png); background-repeat:no-repeat; background-position:center; width:19px; height:18px;}
+div.bx-auth-reg div.bx-auth-secure-unlock {background-image:url(images/sec-unlocked.png);}
+
+input[type="button"], input[type="submit"] {
+    padding: 11px 20px;
+    border-radius: 22px;
+    margin: 10px 0;
+}
+
+table .starrequired {
+	margin: 10px;
+}
+
+.register_user {
+    padding: 11px 20px;
+    border-radius: 22px;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+/*  border: 1px solid #ccc;
+  background-color: #f1f1f1;*/
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+/*#corporate_user table td {
+    padding: 10px;
+}*/
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="password"], textarea {
+      padding: 5px !important;
+}
+
+input[type=text], input[type=file] {
+  margin-bottom: 0 !important;
+}

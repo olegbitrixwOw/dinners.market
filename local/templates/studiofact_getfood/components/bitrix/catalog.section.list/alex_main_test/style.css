@@ -1,0 +1,208 @@
+/* line */
+
+
+.bx_catalog_tile .section .item_element .hover_over a.open_fancybox{
+	color: #ffffff;
+	position: absolute;
+	padding: 12px 0;
+	border-radius: 20px;
+	border: 1px solid #fff;
+	width: 174px;
+	height: 40px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 300;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	margin: auto;
+}
+
+.bx_catalog_tile .section .item_element .hover_over .image{
+	background: none;
+}
+.bx_catalog_tile .section .item_element .img_box {
+	height: 200px;
+}
+
+.bx_catalog_tile .section .item_element .hover_over{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 100%;
+	height: 200px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	line-height: 1;
+	font-size: 16px;
+	font-weight: 900;
+	/*background: rgba(0, 0, 0, 0.6);*/
+	background: rgb(169 78 78 / 60%);
+	z-index: 100;
+}
+
+
+.bx_catalog_tile .item_element.good_box {
+    padding: 0 !important;
+}
+
+.bx_catalog_tile .section .item_element {
+    margin: 0 20px 10px 0;
+    position: relative;
+    float: left;
+	cursor: pointer;
+    overflow: visible;
+    min-height: 300px;
+    width: 250px;
+    background-color: #ffffff;
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.bx_catalog_tile .bx_catalog_item_title{
+	font-size: 2em;
+    margin: 0.6em 0;
+    display: block;
+    text-align: center;
+}
+
+.bx_catalog_tile .bx_catalog_item_title p {
+	font-weight: bold;
+	color: #4e4c4a;
+}
+
+.bx_catalog_tile .bx_catalog_item_title a {
+	text-decoration: none;
+	color: #4e4c4a;
+}
+
+.bx_catalog_tile .section .item_element .img_box {
+	border-top-right-radius:8px; 
+	border-top-left-radius: 8px;
+}
+
+.bx_catalog_tile .section .item_element .delivery {
+    display: block;
+    width: 100%;
+    color: #87a95d;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    padding: 5px 5% 0 5%;
+    overflow: hidden;
+    background: #fff;
+    height: auto;
+    font-weight: bold;
+}
+
+.bx_catalog_tile .section .item_element .sect-link a {
+	text-decoration: none !important;
+}
+
+.bx_catalog_tile .section .item_element .working_time {
+    display: block;
+    width: 100%;
+    color: rgba(51, 51, 51, 0.8);
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+    padding: 5px 20px 0;
+    overflow: hidden;
+    background: #fff;
+    height: auto;
+}
+
+.bx_catalog_tile .section .item_element .rub {
+    display: inline-block;
+    *: ;
+    display: inline;
+    *: ;
+    zoom: 1;
+    font-size: 12px;
+    line-height: 3px;
+    padding-top: 8px;
+    border-bottom: 1px solid #000;
+    width: 0.3em;
+    vertical-align: top;
+}
+
+
+
+@media screen and (max-width: 590px){
+	.bx_catalog_tile .section .item_element {
+	    width: 100% !important;
+	    margin: 0 3% 10px 0;
+	}
+}
+@media screen and (max-width: 768px){
+	.section--grid-3 .catalog_section .item_element, .is-catalog-page .section--grid-3 .catalog_section .item_element {
+	    width: 48.5%;
+	    margin: 0 3% 10px 0;
+	}
+}
+@media screen and (max-width: 590px){
+	.bx_catalog_tile .section .item_element {
+	    margin-bottom: 10px !important;
+	}
+}
+@media screen and (max-width: 590px){
+	.bx_catalog_tile .section .item_element {
+	    width: 100% !important;
+	    margin: 0 0 20px 0;
+	}
+}
+@media screen and (max-width: 910px){
+	.bx_catalog_tile .section .item_element {
+	    width: 30% !important;
+	    margin: 30px 15px 20px 0;
+	}
+/*	.bx_catalog_tile .section .item_element {
+	    float: left;
+	    width: 32%;
+	    margin: 0 2% 20px 0;
+	}*/
+}
+@media screen and (max-width: 590px){
+	.bx_catalog_tile .section .item_element {
+	    width: 90% !important;
+	    margin: 15px 10px 9px 10px !important;
+	}
+}
+@media screen and (max-width: 1290px){
+	.bx_catalog_tile .section .item_element {
+	    min-height: 400px;
+	}
+}
+@media screen and (max-width: 425px){
+	.bx_catalog_tile .section .item_element {
+	    min-height: 340px !important;
+	}
+	.bx_catalog_tile .item_element.good_box {
+	    padding: 0 !important;
+	}
+	.bx_catalog_tile .section .item_element {
+	    margin: 0 20px 10px 0;
+	    position: relative;
+	    overflow: visible;
+	    min-height: 397px;
+	    width: 300px;
+	    background-color: #ffffff;
+	    border: 1px solid #ededed;
+	    border-radius: 10px;
+	    -moz-border-radius: 10px;
+	    -webkit-border-radius: 10px;
+	}
+}

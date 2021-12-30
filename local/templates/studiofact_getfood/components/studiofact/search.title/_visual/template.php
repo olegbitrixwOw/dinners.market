@@ -1,0 +1,59 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+/** @var array $arParams */
+/** @var array $arResult */
+/** @global CMain $APPLICATION */
+/** @global CUser $USER */
+/** @global CDatabase $DB */
+/** @var CBitrixComponentTemplate $this */
+/** @var string $templateName */
+/** @var string $templateFile */
+/** @var string $templateFolder */
+/** @var string $componentPath */
+/** @var CBitrixComponent $component */
+$this->setFrameMode(true);
+
+$INPUT_ID = trim($arParams["~INPUT_ID"]);
+if(strlen($INPUT_ID) <= 0)
+	$INPUT_ID = "title-search-input";
+$INPUT_ID = CUtil::JSEscape($INPUT_ID);
+
+$CONTAINER_ID = trim($arParams["~CONTAINER_ID"]);
+if(strlen($CONTAINER_ID) <= 0)
+	$CONTAINER_ID = "title-search";
+$CONTAINER_ID = CUtil::JSEscape($CONTAINER_ID);
+if(isset($_REQUEST["day_week"])){
+	$lid =  htmlentities($_REQUEST["day_week"]);
+}
+elseif(isset($_REQUEST["day_of_week"])){
+	$lid =  htmlentities($_REQUEST["day_of_week"]);
+}
+else{
+	$lid =  substr(date("l"), 0, 2); // текущий день
+}
+if($arParams["SHOW_INPUT"] !== "N"):?>
+<div id="<?echo $CONTAINER_ID?>" class="bx_search_container">
+	<form action="<?echo $arResult["FORM_ACTION"]?>" id="<?=$CONTAINER_ID.'_form'?>">
+		<div class="bx_field">
+			<input id="<?echo $INPUT_ID?>" type="text" name="q" value="<?=htmlspecialcharsbx($_REQUEST["q"])?>" size="23" maxlength="50" autocomplete="off" class="bx_input_text" placeholder="<?=GetMessage("CT_BST_SEARCH_BUTTON");?>" />
+				<input type="hidden" name="day_week" value="<?=$lid?>">
+            <label class="search-label">
+                <svg class="i-icon">
+                    <use xlink:href="#svg-icon-search"></use>
+                </svg>
+                <input name="s" type="submit" value="" class="bx_input_submit"/>
+            </label>
+		</div>
+	</form>
+</div>
+<?endif?>
+<script>
+	BX.ready(function(){
+        new JCTitleSearchCustom({
+			'AJAX_PAGE' : '<?echo CUtil::JSEscape(POST_FORM_ACTION_URI)?>',
+			'CONTAINER_ID': '<?echo $CONTAINER_ID?>',
+			'INPUT_ID': '<?echo $INPUT_ID?>',
+			'MIN_QUERY_LEN': 2
+		});
+	});
+</script>
+

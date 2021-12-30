@@ -1,0 +1,78 @@
+.news-list{
+    word-wrap: break-word;
+    width: 100%;
+    display: inline-block;
+}
+.news-list img.preview_picture{
+    float:left;
+    margin:0 4px 6px 0;
+}
+.news-date-time {
+    color:#486DAA;
+}
+.news-list .news-item{
+    width: 100%;
+    display: inline-block;
+}
+
+/* список пользователей */
+#user-list {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#user-list td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#user-list tr:nth-child(even){background-color: #f2f2f2;}
+
+#user-list tr:hover {background-color: #ddd;}
+
+#user-list th {
+  padding: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.user-record {
+    font-size: 16px;
+    color: #7f8a92;
+}
+
+.user-record span {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.user-record span a {
+    color: #87a95d;
+}
+
+#user-list a {
+    text-decoration: none;
+} 
+
+.tools {
+  display: inline-block;
+  background-image: url(tools.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.orders {
+  display: inline-block;
+  background-image: url(paper.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tools, .orders {
+  width: 24px; 
+  height: 24px;
+
+}
+

@@ -1,0 +1,38 @@
+.tutorial {
+  position: absolute;
+  background: var(--custom-color);
+  height: 36px;
+  width: 50px;
+  top: 50%;
+  margin-top: -18px;
+  text-align: right;
+  line-height: 36px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  padding-right: 20px;
+  left: 0;
+  text-decoration: none;
+}
+.tutorial:hover {
+  background: var(--hover-color);
+  color: #fff;
+}
+#tutorial-sliders {
+  width: 800px;
+  margin: 0;
+}
+#tutorial-sliders .owl-nav {
+  text-align: center;
+  margin-top: 10px;
+}
+#tutorial-sliders .fancybox-close-small {
+  outline: none;
+}
+@media (max-width: 620px) {
+  .tutorial {
+    display: none;
+  }
+}

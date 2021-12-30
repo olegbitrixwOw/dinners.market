@@ -1,0 +1,120 @@
+:root {
+    --custom-color: #87a95d;
+    --hover-color: #abc38d;
+    --opposite-color: #fff;
+}
+.header-logo .image svg, .search-form .search-button svg, header .recall-btn .icon, .header-basket-link .basket-icon svg, .banner .banner-buy-btn .icon, .footer-logo .icon, .footer-nav li:hover svg, .post-footer .socials a svg, .catalog-sort-set .icon, .catalog-view-set__item.selected .icon, .product-info .product-black-link .icon, .button--transparent .icon, .product-features__item .icon-wrapper .icon, .news-list__item .link .icon, .compare-slider__item .compare-black-link .icon, .main-nav .sub-menu .icon, .main-nav .mobile-menu-toggler .icon, .mobile-header .mobile-menu-toggler .icon, .mobile-header .mobile-menu-toggler .delete-icon, .mobile-header .mobile-logo .icon, .mobile-header .mobile-basket .icon, .main-nav .main-menu > li > a:hover svg, .post-footer .socials a:hover svg, .configurator .switch > svg
+{
+    fill: #87a95d;
+}
+a, .header-basket-link__counter span, .main-nav .main-menu > li > a:hover, h1, h2, h3, h4, h5, .news-list__item .name, h6, .banner .banner-link, .tabs-title.is-active a, .tabs-title a:hover, .products-list__item .name, .products-list__item .prices .current-price, .breadcrumbs-button, .main-brands a:hover, .main-features__info .title, .footer-nav li:hover a, .post-footer .copyrights .company-name, .page-header .breadcrumbs li a:hover, .catalog-sort-set__item, .catalog-filters__link-list li.has-child > a:after, .button--white, .badge--new, .count-up__btn.plus, .count-up__btn.minus, blockquote, blockquote p, .product-price-block .price, .product-price-block .head, .news-list__item .link, .news-inner .title, .compare-slider__item .name a, .compare-slider__item .prices .current-price, .header-basket-popup__item .item-content .name, .header-basket-popup__item .item-content .price, .header-basket-popup__footer .total-price-in-basket, .cart-back, .b-cart__head .b-cart__cell, .b-cart__cell--price, .b-cart__cell--total, .b-cart__cell--funcs a, .b-cart .count-up__btn, .order-list__item .head, .order-product .name a, .order-product .prices .current-price, .tabs-mobile-links select, .b-cart__cell--discount
+{
+    color: #87a95d;
+}
+.admin-form .switch, .bx-soa-cart-total .bx-soa-cart-d, .bx-soa-item-title a, .bx-soa-item-properties.bx-text-right .bx-soa-item-td-text span, .bx-soa-item-td-text .bx-price, .form-group--location, .side-menu ul li a, .sale_order_full_table b, .b-cart__summary-info, .b-cart__item-link
+{
+    color: #87a95d !important;
+}
+.configurator .left-block, .jspDrag, .main-slider .owl-dot.active, .button--white:hover, .products-list__item .buttons .to-basket-btn:hover, .main-slider .owl-dot.active, .products-list__item .image .preview-btn:hover, .main-features__item:hover .main-features__icon, .slider-handle, .pagination .current, .pagination a:hover, .pagination button:hover, #modef, .configurator .switch:hover, .configurator .right-block .values .header-inner
+{
+    background: #87a95d;
+}
+.in-basket, .bx-composite-btn {
+    background: #87a95d !important;
+}
+a.scroll-to-top, .b-cart__coupon-btn, .b-cart__btns-right .checkout, .cart-back:hover, .main-product-slider .owl-nav .owl-prev, .main-product-slider .owl-nav .owl-next, .form-banner--black, .button {
+    background-color: #87a95d;
+}
+.cart-back, .sku_prop.bx_active .cnt {
+    border: 1px solid #87a95d;
+}
+.products-list__item .image .preview-btn:hover, .main-features__item:hover .main-features__icon, .option-set [type="radio"]:checked + .caser, .option-set [type="checkbox"]:checked + .caser, .option-set .caser:hover .caser-radio.bx_active .caser, .button--white:hover, .products-list__item .buttons .to-basket-btn:hover, .product-tabs .tabs-title.is-active, blockquote
+{
+    border-color: #87a95d;
+}
+.radio-inline input:checked + .radio-inline_border, .bx-soa-pp-company.bx-selected, .bx-soa-pp-company-block .checkbox label input:checked + .label-border, .form-group .form-control:focus, [type='text']:focus, [type='password']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='week']:focus, [type='email']:focus, [type='number']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='url']:focus, [type='color']:focus, textarea:focus, .in-basket
+{
+    border-color: #87a95d !important;
+}
+#modef::after {
+    border-right: 5px solid #87a95d;
+}
+a:hover, a:focus {
+    color: #abc38d;
+}
+.button--white {
+    background-color: #fff;
+}
+.button--white:hover, .products-list__item .buttons .to-basket-btn:hover, .products-list__item .image .preview-btn:hover {
+    color: #fff;
+}
+a.scroll-to-top:hover,.button:hover, .button:focus, .in-basket .button:hover, .in-basket .button:focus {
+    background-color: #abc38d!important;
+    color: #fff;
+}
+.button--transparent, .button--transparent:hover, .button--transparent:focus {
+    background: transparent;
+}
+.compare-active, .favorite-active, .compare-active:hover, .favorite-active:hover, label[data-bx-user-consent] input:checked + a:after, [type="checkbox"]:checked + .checkbox-icon:before, .sale-paysystem-yandex-button-item, .bx-blue .btn.btn-default
+{
+    background-color: #87a95d !important;
+}
+.configurator .switch:hover svg path {
+    fill: #fff;
+}
+.button-typefile{
+    color: #fff;
+    background-color: #87a95d;
+}
+.item.item_checkbox .values.test_checkbox a.active div::before{
+    background-color: #87a95d;
+}
+.item.item_checkbox .values.test_checkbox a div::before{
+    background-color: #999;
+}
+.product-recomendation__image:hover .specification-recomendation{
+    background-color: #ffffff;
+    border:1px solid #999;
+    color:#999;
+}
+.product-recomendation__image:hover .specification-recomendation:before {
+    border-bottom: 5px solid #999;
+}
+.product-recomendation__image:hover .specification-recomendation:after {
+    border-bottom: 4px solid white;
+}
+.configurator .right-block .block-item .item .values a.active div{
+    background:#87a95d;
+    color:white;
+}
+.item.item_checkbox .values a.active div{
+    background: #abc38d;
+}
+.item.item_checkbox .values a div:before {
+    background: white;
+}
+.item.item_checkbox .values a.active div::before {
+    background: white;
+}
+.configurator .left-block{
+    background: #87a95d;
+    color:white;
+}
+.configurator .left-block .section-block.active{
+    background: #abc38d;
+}
+.jspDrag{
+    background: #87a95d;
+}
+.jspDrag:hover{
+    background-color:#abc38d;
+}
+.jspDrag:active{
+    background-color:#abc38d;
+}
+.item.item_checkbox .values a:not(.active) div {
+    box-shadow:  inset 0 0 0 1px #87a95d;
+}
+.item.item_checkbox .values a:not(.active) div:before {
+    box-shadow: inset 0 0 0 1px #87a95d;
+}

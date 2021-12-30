@@ -1,0 +1,329 @@
+@media (min-width: 1200px)
+{
+    .affix-logo .switcher {
+        padding: 20px 0;
+        width: 125px;
+    }
+}
+
+@media (min-width: 992px) {
+    .affix-logo .switcher {
+        padding: 22px 0;
+        width: 90px;
+    }
+}
+
+@font-face {
+    font-family: 'picassocafe';
+    src: url('/assets/css/fonts/picassocafe.eot?hehp19');
+    src: url('/assets/css/fonts/picassocafe.eot?hehp19#iefix') format('embedded-opentype'),
+    url('/assets/css/fonts/picassocafe.ttf?hehp19') format('truetype'),
+    url('/assets/css/fonts/picassocafe.woff?hehp19') format('woff'),
+    url('/assets/css/fonts/picassocafe.svg?hehp19#picassocafe') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+.icon {
+    font-family: 'picassocafe'!important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-cart:before {
+    content: "\61"
+}
+
+.icon-sauce:before {
+    content: "\62"
+}
+
+.icon-salad:before {
+    content: "\63"
+}
+
+.icon-snack:before {
+    content: "\64"
+}
+
+.icon-dessert:before {
+    content: "\65"
+}
+
+.icon-drink:before {
+    content: "\66"
+}
+
+.icon-wok:before {
+    content: "\67"
+}
+
+.icon-soup:before {
+    content: "\68"
+}
+
+.icon-pizza:before {
+    content: "\69"
+}
+
+.icon-sushi:before {
+    content: "\6a"
+}
+
+.icon-pasta:before {
+    content: "\6b"
+}
+
+.icon-shashlik:before {
+    content: "\6c"
+}
+
+.icon-burger:before {
+    content: "\6d"
+}
+
+
+.navbar-default .navbar-nav>li:hover>a .icon-img {
+    background-color: #ffeb3b
+}
+
+.navbar-default .navbar-nav>li:hover>a,.navbar-default .navbar-nav>li:focus>a {
+    color: #ffeb3b !important;
+    background-color: #000 !important;
+}
+
+@media(max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        font-size:16px;
+        font-weight: 300
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a::before {
+        content: '\f105';
+        font-family: FontAwesome;
+        position: relative;
+        left: -10px
+    }
+
+    .navbar-nav li>a>.caret-icon {
+        float: right;
+        margin-top: 2px;
+        margin-right: 7px
+    }
+
+    .navbar-nav li.dropdown>a>.caret-icon:before {
+        content: '\f196';
+        font-family: FontAwesome
+    }
+
+    .navbar-nav li.dropdown.open>a>.caret-icon:before {
+        content: '\f147';
+        font-family: FontAwesome
+    }
+
+    .navbar-header {
+        box-shadow: 0 1px 2px rgba(0,0,0,0.3)
+    }
+
+    .cart .dropdown-menu:before {
+        content: "";
+        position: absolute;
+        top: -20px;
+        left: 10px;
+        border: 10px solid transparent;
+        border-bottom: 10px solid white
+    }
+
+}
+
+@media(min-width: 768px) {
+    .container>.navbar-collapse {
+        margin-left:-15px;
+        margin-right: -15px
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0
+    }
+
+    .nav>li>a {
+        padding: 10px
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        font-size: 30px;
+        text-align: center
+    }
+
+    .navbar-default .navbar-nav>li>a .icon {
+        margin-right: 0
+    }
+
+    .navbar-default .navbar-nav>li>a .item {
+        display: none
+    }
+
+    .navbar-default .navbar-nav>li>a .caret {
+        display: none
+    }
+
+
+
+
+}
+
+@media(min-width: 992px) {
+    .nav>li>a {
+        padding:5px 0
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        font-size: 40px;
+        width: 70px
+    }
+
+    .navbar-default .navbar-nav>li>a .item {
+        display: table;
+        height: 26px;
+        margin-top: 6px;
+        margin-right: auto;
+        margin-bottom: -2px;
+        margin-left: auto
+    }
+
+    .navbar-default .navbar-nav>li>a .item-name {
+        display: table-cell;
+        font-size: 11px;
+        line-height: 1.2;
+        vertical-align: middle
+    }
+
+    .navbar-default .navbar-nav>li.cart .item-name {
+        font-size: 18px;
+        font-weight: normal
+    }
+
+    .navbar-nav {
+        float: left;
+        margin: 0;
+        margin: 0 0 0 24%;
+    }
+
+    .navbar-nav > li {
+        float: left;
+        margin: 0;
+    }
+
+    .navbar-nav {
+        float: left;
+        margin: 0;
+        margin: 0 0 0 20%;
+        width: 80%;
+    }
+
+    .navbar-nav > li {
+        float: left;
+        margin: 0 2em 0 0;
+    }
+}
+
+@media(min-width: 1200px) {
+    .navbar-default .navbar-nav>li>a {
+        font-size:50px;
+        width: 80px;
+        min-height: 90px
+    }
+
+
+    .navbar-nav {
+        float: left;
+        margin: 0;
+        margin: 0 0 0 20%;
+        width: 80%;
+    }
+
+    .navbar-nav > li {
+        float: left;
+        margin: 0 3em 0 0;
+    }
+
+}
+
+.navbar-ovsinka {
+    /*background-color: #E5E5E5 !important;
+    border-color: transparent !important;*/
+}
+
+.navbar-default {
+    border: none;
+}
+
+.navbar-nav {
+    background-color: #E5E5E5 !important;
+    border-color: transparent !important;
+    border-color: #e7e7e7;
+    border-radius: 4px; 
+}
+
+.a_no_underline{
+    text-decoration:none;
+}
+
+::selection {
+    background: #e0d131;
+    color: #000
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #ffeb3b;
+    background-color: #000;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-toggle {
+    width: 38px;
+    height: 32px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    float: right;
+    margin-right: 15px;
+    padding: 0;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    background-color: transparent;
+    background-image: none;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 0;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    background-color: transparent;
+    background-image: none;
+}
+

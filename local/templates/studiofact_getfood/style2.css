@@ -1,0 +1,21 @@
+.box, .banner_box {
+    background: none;
+    box-shadow: none;
+}
+.box.padding  {
+    line-height: 25px;
+}
+.box.padding span[itemprop="telephone"] {
+    font-weight: bold;
+    color: #000;
+}
+.box.padding .work-days {
+    font-weight: bold;
+    color: #000;
+    line-height: 30px;
+}
+.footer {
+    color: #696969;
+}
+
+

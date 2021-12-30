@@ -1,0 +1,22 @@
+
+
+.delete {
+  display: inline-block;
+  background-image: url(send-to-trash.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tools {
+  display: inline-block;
+  background-image: url(tools.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.delete, .tools {
+  width: 24px;
+  height: 24px;
+
+}
+

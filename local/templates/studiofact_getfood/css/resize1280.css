@@ -1,0 +1,24 @@
+.container, .main_banner_big .owl-buttons {
+	max-width: 1280px;
+	min-width: 320px;
+	width: auto;
+}
+#header {
+	min-width: 980px;
+}
+.header #small_basket {
+	margin-left: 20px;
+}
+.mobile {
+	display: none;
+}
+#sale_order_props .bx_block.r1x3 {
+	width: 25%;
+}
+#sale_order_props .bx_block.r3x1 {
+	width: 75%;
+}
+
+.header .search_box {
+	margin: 16px 5px 0 0;
+}

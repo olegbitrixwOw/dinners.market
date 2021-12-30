@@ -1,0 +1,99 @@
+.bx_item_list_you_looked_horizontal .bx_item_list_title {
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 22px;
+	margin: 50px 0 15px 0;
+}
+
+.bx_item_list_you_looked_horizontal .bx_catalog_item_images_double, .bx_item_list_you_looked_horizontal .bx_catalog_item_images {
+	position: relative;
+	z-index: 10;
+	display: block;
+	padding-top: 135%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 8px;
+}
+
+.bx_item_list_you_looked_horizontal .bx_stick.bottom, .bx_item_list_you_looked_horizontal .bx_stick_disc.bottom {
+	bottom: 5px;
+}
+
+.bx_item_list_you_looked_horizontal .bx_stick.right, .bx_item_list_you_looked_horizontal .bx_stick_disc.right {
+	right: 5px;
+}
+
+.bx_item_list_you_looked_horizontal .bx_stick_disc {
+	position: absolute;
+	width: 74px;
+	height: 74px;
+	background: url(images/stick_disc.png) no-repeat center;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 0 #ba3434;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 74px;
+}
+
+.bx_item_list_you_looked_horizontal .bx_stick.top, .bx_item_list_you_looked_horizontal .bx_stick_disc.top {
+	top: 5px;
+}
+
+.bx_item_list_you_looked_horizontal .bx_stick.left, .bx_item_list_you_looked_horizontal .bx_stick_disc.left {
+	left: 5px;
+}
+
+.bx_item_list_you_looked_horizontal .bx_stick.average {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.bx_item_list_you_looked_horizontal .bx_stick {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	background: url(images/stick.png) left center no-repeat;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 0 #ba3434;
+	line-height: 35px;
+	white-space: nowrap;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+
+.bx_item_list_you_looked_horizontal .bx_catalog_item_images_double {
+	z-index: 9;
+	margin-top: -245px;
+	opacity: 0;
+}
+
+.bx_item_list_you_looked_horizontal .bx_catalog_item_images_double, .bx_item_list_you_looked_horizontal .bx_catalog_item_images {
+	position: relative;
+	z-index: 10;
+	display: block;
+	padding-top: 245px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-radius: 8px;
+}
+
+.bx_deactivated i {
+	cursor: not-allowed;
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 11;
+	background: rgba(255,255,255,.79) url(/bitrix/templates/studiofact_getfood/components/bitrix/sale.gift.basket/.default/images/missing.png) no-repeat center!important;
+}
